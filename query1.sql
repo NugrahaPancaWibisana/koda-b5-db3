@@ -11,4 +11,4 @@ WHERE first_name LIKE '%s';
 -- Point 3
 SELECT *
 FROM movies
-WHERE rating >= 4 AND rating <= 8 AND extract(year FROM release_date) >= 2004 AND extract(year FROM release_date) >= 2010;
+WHERE rating >= 4 AND rating <= 8 AND extract(year FROM release_date) >= 2004 AND extract(year FROM release_date) <= 2010;
